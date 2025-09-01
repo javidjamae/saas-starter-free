@@ -8,6 +8,28 @@ A free, open-source SaaS starter kit demonstrating Supabase email authentication
 
 Coming soon - will be deployed after initial release.
 
+## 🆚 Free vs Paid Kit Comparison
+
+| Feature | Free Kit | Paid Kit |
+|---------|----------|----------|
+| **Authentication** | ✅ Supabase email auth | ✅ Supabase + social providers |
+| **Database** | ✅ Profiles table with RLS | ✅ Full schema with relationships |
+| **Plan Selection** | ✅ Saves to database (demo) | ✅ Real Stripe Checkout |
+| **Billing** | ❌ Demo only | ✅ Stripe subscriptions + webhooks |
+| **Customer Portal** | ❌ Not included | ✅ Stripe customer portal |
+| **Plan Enforcement** | ❌ Demo only | ✅ Real feature gating |
+| **Admin Features** | ✅ Basic preview | ✅ Full billing insights |
+| **Support** | 🔄 Community only | ✅ Direct developer support |
+
+## 💡 What You Will Learn
+
+- Setting up Supabase authentication with Next.js App Router
+- Implementing Row Level Security (RLS) policies
+- Building protected routes and role-based access
+- Creating user dashboards with real-time data
+- Structuring a SaaS application with modern React patterns
+- Deploying full-stack applications to Vercel
+
 ## ✨ What's Included
 
 - ✅ **Supabase Authentication** - Email/password and magic link login
@@ -65,9 +87,9 @@ npm run dev
 4. Visit `/pricing`, select a plan
 5. Confirm the plan is saved in `/dashboard`
 
-## 🌍 Deploy to Vercel
+## Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/saas-starter-free&env=NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/javidjamae/saas-starter-free&env=NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY)
 
 ## 📋 Environment Variables
 
@@ -76,21 +98,7 @@ npm run dev
 | `NEXT_PUBLIC_SUPABASE_URL` | Your Supabase project URL | ✅ |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Your Supabase anon/public key | ✅ |
 
-## 🆚 Free vs Paid Kit Comparison
 
-| Feature | Free Kit | Paid Kit |
-|---------|----------|----------|
-| **Authentication** | ✅ Supabase email auth | ✅ Supabase + social providers |
-| **Database** | ✅ Profiles table with RLS | ✅ Full schema with relationships |
-| **UI Pages** | ✅ Dashboard, pricing, admin preview | ✅ Full-featured pages |
-| **Plan Selection** | ✅ Saves to database (demo) | ✅ Real Stripe Checkout |
-| **Billing** | ❌ Demo only | ✅ Stripe subscriptions |
-| **Webhooks** | ❌ Not included | ✅ Stripe webhook handling |
-| **Customer Portal** | ❌ Not included | ✅ Stripe customer portal |
-| **Plan Enforcement** | ❌ Demo only | ✅ Real feature gating |
-| **Admin Features** | ✅ Basic preview | ✅ Full billing insights |
-| **Support** | 🔄 Community only | ✅ Direct developer support |
-| **Setup** | 🔧 Manual setup | ✅ Done-for-you installation |
 
 ## 🏗️ Architecture
 
@@ -121,7 +129,9 @@ npm run lint
 
 ## 🌟 Community & Support
 
-- **Skool Community**: [Join our free community](https://www.skool.com/delivering-growth-free)
+**Support**: This project is community supported - issues and PRs welcome! Production support is part of the paid SaaS Starter Kit.
+
+- **Skool Community**: [Join our free community](https://www.skool.com/delivering-growth-free/about)
 - **YouTube**: [@delivering-growth](https://www.youtube.com/@delivering-growth)
 - **TikTok**: [@deliveringgrowth](https://www.tiktok.com/@deliveringgrowth)
 
@@ -129,11 +139,7 @@ npm run lint
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
 
-This is a community-supported project. Issues and pull requests are welcome! 
-
-For the paid SaaS Starter Kit with commercial support, visit our main site.
 
 ## 🔒 Security
 
